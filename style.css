@@ -16,7 +16,6 @@
     background: -webkit-linear-gradient(to top, #4b134f, #c94b4b);
     background: linear-gradient(to top, #4b134f, #c94b4b);
     opacity: 0.5;
-    border: 2px solid #333;
 }
 
 .stopwatch {
