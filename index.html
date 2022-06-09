@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretty StopWatch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="stopwatch" id="stopwatch">
+            00:00
+        </div>
+        <div class="buttonContainer">
+            <button class="start" id="start" value="start" onclick="startTimer()">
+                START
+            </button>
+            <button class="stop" id="stop" value="stop" onclick="stopTimer()">
+                STOP
+            </button>
+            <button class="reset" id="reset" value="reset" onclick="resetTimer()">
+                RESET
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
